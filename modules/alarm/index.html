@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Alarm Clock</title>
+        <meta charset="UTF-8">
+        <link rel="stylesheet" href="style.css">
+    </head>
+    <body>
+        <h1>Alarm Clock</h1>
+        <div id="clock"></div>
+        <br><br>
+        <input type="datetime-local" id="date" onchange="setTime(this.value)" name="Alarm">
+        <br><br><br>
+        <div>
+            <button onclick="setAlarm()" class="button setAlarm">Add Alarm</button>
+            <button onclick="clearAlarm()" class="button clearAlarm">Remove Alarm</button>
+        </div>
+        
+        <audio id="alarmAudio" loop >
+            <source src="assets/rooster.mp3" type="audio/mp3">
+        </audio>
+        <script src="index.js"></script>
+    </body>
+</html>

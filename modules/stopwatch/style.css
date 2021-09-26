@@ -1,0 +1,33 @@
+* {
+    text-align: center;
+}
+.watch {
+    font-weight: 300;
+    font-size: 48px;
+}
+.watch_bg {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 300px;
+    width: 300px;
+    border: 3px solid;
+    border-radius: 100%;
+    margin: 0 auto;
+}
+
+button {
+    cursor: pointer;
+    background: transparent;
+    padding: 0;
+    border: none;
+    margin: 0;
+    outline: none;
+  }
+  #play {
+    display: block;
+  }
+  
+  #pause {
+    display: none;
+  }
