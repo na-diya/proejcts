@@ -5,7 +5,7 @@ let alarmTimeout
 function updateTime(){
     let date = new Date();
     let day = styleValue(date.getDate());
-    let month = styleValue(date.getMonth());
+    let month = styleValue(date.getMonth() + 1);
     let year = styleValue(date.getFullYear())
     let hour = styleValue(date.getHours());
     let min = styleValue(date.getMinutes());
